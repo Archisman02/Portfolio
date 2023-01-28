@@ -532,7 +532,7 @@ textarea {
   }
 
   #skills {
-    height: 70vh;
+    height: 90vh;
   }
 
   #company-details {
@@ -542,11 +542,11 @@ textarea {
   }
 
   #experience {
-    height: 70vh;
+    height: 100vh;
   }
 
   #education {
-    height: 70vh;
+    height: 100vh;
   }
 
   #exp-img img {
