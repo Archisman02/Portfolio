@@ -542,11 +542,11 @@ textarea {
   }
 
   #experience {
-    height: 100vh;
+    height: 140vh;
   }
 
   #education {
-    height: 100vh;
+    height: 140vh;
   }
 
   #exp-img img {
@@ -561,7 +561,11 @@ textarea {
   }
 
   #portfolio {
-    height: 160vh;
+    height: 250vh;
+  }
+
+  #contact {
+    height: 130vh;
   }
 
   .portfolio-container {
@@ -597,14 +601,18 @@ textarea {
   }
 
   #skills {
-    height: 130vh;
+    height: 120vh;
   }
 
   #experience {
-    height: 130vh;
+    height: 150vh;
   }
 
   #education {
-    height: 130vh;
+    height: 150vh;
+  }
+
+  #portfolio {
+    height: 200vh;
   }
 }
