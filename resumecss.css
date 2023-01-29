@@ -336,7 +336,7 @@ textarea {
 
 /* Work Experience Section */
 #experience {
-  height: 105vh;
+  height: 130vh;
 }
 
 .timeline {
@@ -431,7 +431,7 @@ textarea {
 /* Education Section */
 
 #education {
-  height: 105vh;
+  height: 130vh;
 }
 
 /* About Section */
@@ -537,7 +537,7 @@ textarea {
   }
 
   #skills {
-    height: 70vh;
+    height: 100vh;
   }
 
   #company-details {
@@ -547,11 +547,11 @@ textarea {
   }
 
   #experience {
-    height: 100vh;
+    height: 150vh;
   }
 
   #education {
-    height: 100vh;
+    height: 150vh;
   }
 
   #exp-img img {
@@ -606,23 +606,23 @@ textarea {
   }
 
   #skills {
-    height: 100vh;
+    height: 130vh;
   }
 
   #experience {
-    height: 150vh;
+    height: 220vh;
   }
 
   #education {
-    height: 150vh;
+    height: 220vh;
   }
 
   #portfolio {
-    height: 200vh;
+    height: 270vh;
   }
 
   #contact {
-    height: 120vh;
+    height: 150vh;
   }
 
   .contact-container {
@@ -639,7 +639,7 @@ textarea {
   }
 
   #contact-details {
-    width: 100%;
+    width: 150%;
   }
 
   #pesonal-details {
@@ -654,5 +654,12 @@ textarea {
 
   #exp-info {
     margin-top: 44px;
+  }
+
+  .social-icons li a i {
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    margin: 10px;
   }
 }
