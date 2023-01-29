@@ -231,7 +231,7 @@ section:nth-child(2n + 1) {
 .contact-container {
   display: flex;
   /*	flex-direction: row;*/
-  /*	flex-wrap: wrap;*/
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid black; */
@@ -350,7 +350,7 @@ textarea {
   width: 40%;
   left: 5%;
   min-height: 150px;
-  /*border: 2px solid black;*/
+  /* border: 1px solid black; */
   margin: 5px;
 }
 
@@ -421,6 +421,11 @@ textarea {
   position: absolute;
   right: 6%;
   top: 26%;
+}
+
+#exp-info {
+  margin-top: 25px;
+  /* border: 1px solid black; */
 }
 
 /* Education Section */
@@ -532,7 +537,7 @@ textarea {
   }
 
   #skills {
-    height: 90vh;
+    height: 70vh;
   }
 
   #company-details {
@@ -542,11 +547,11 @@ textarea {
   }
 
   #experience {
-    height: 140vh;
+    height: 100vh;
   }
 
   #education {
-    height: 140vh;
+    height: 100vh;
   }
 
   #exp-img img {
@@ -601,7 +606,7 @@ textarea {
   }
 
   #skills {
-    height: 120vh;
+    height: 100vh;
   }
 
   #experience {
@@ -614,5 +619,40 @@ textarea {
 
   #portfolio {
     height: 200vh;
+  }
+
+  #contact {
+    height: 120vh;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* height: 65%; */
+    width: 80%;
+    /* margin-top: 30px; */
+    /* margin-left: 340px; */
+  }
+
+  #contact-details {
+    width: 100%;
+  }
+
+  #pesonal-details {
+    width: 100%;
+  }
+
+  #company-details {
+    position: absolute;
+    right: 6%;
+    top: 15%;
+  }
+
+  #exp-info {
+    margin-top: 44px;
   }
 }
